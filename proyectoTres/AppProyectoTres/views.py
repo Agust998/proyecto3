@@ -5,16 +5,16 @@ def inicio(request):
     return render(request,"AppProyectoTres/index.html")
 
 def cursos(request):
-    return HttpResponse("vista curso")
+    return render(request,"AppProyectoTres/curso.html")
 
 def profesores(request):
-    return HttpResponse("Vista profesores")
+    return render(request, "AppProyectoTres/profesores.html")
 
 def estudiantes(request):
-    return HttpResponse("Vista estudiantes")
+    return render(request,"AppProyectoTres/estudiantes.html")
 
 def entregables(request):
-    return HttpResponse("Vista entregables")
+    return render(request,"AppProyectoTres/entregables.html")
 
 
 
