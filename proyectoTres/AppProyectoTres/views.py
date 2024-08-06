@@ -27,6 +27,7 @@ def form_con_api(request):
 
             curso = Curso(nombre=informacion["Cursos"], Camada=informacion["Camada"])
             curso.save()
+            
 
             return render(request,"AppProyectoTres/index.html")
         else:
